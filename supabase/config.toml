@@ -1,0 +1,17 @@
+# Minimal Supabase CLI config. Run `supabase init` to regenerate a full one.
+project_id = "ai-brokerage-os"
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public"]
+extra_search_path = ["public", "extensions"]
+max_rows = 1000
+
+[db]
+port = 54322
+major_version = 15
+
+[studio]
+enabled = true
+port = 54323
